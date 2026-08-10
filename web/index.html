@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sacame de Ahí 🇦🇷</title>
+  <meta name="description" content="Guía open source para ejercer tus derechos sobre datos personales en Argentina." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <span class="eyebrow">PRIVACIDAD · ARGENTINA · OPEN SOURCE</span>
+      <h1>Sacame de Ahí <span>🇦🇷</span></h1>
+      <p>Encontrá quién tiene tus datos, qué podés pedir y cómo reclamar si no te dan bola.</p>
+    </header>
+
+    <section class="panel">
+      <label for="company">¿De dónde querés salir?</label>
+      <select id="company"><option value="">Elegí una entidad…</option></select>
+
+      <p class="label">¿Qué querés hacer?</p>
+      <div class="actions" id="actions">
+        <button data-right="acceso">👀 Ver mis datos</button>
+        <button data-right="rectificacion">✏️ Corregirlos</button>
+        <button data-right="supresion">🗑️ Que los borren</button>
+        <button data-right="retiro-marketing">📵 Basta de marketing</button>
+      </div>
+    </section>
+
+    <section id="result" class="result hidden" aria-live="polite"></section>
+
+    <section class="legal">
+      <h2>Tus derechos, sin vueltas</h2>
+      <div class="grid">
+        <article><strong>10 días corridos</strong><span>para responder un pedido de acceso.</span></article>
+        <article><strong>5 días hábiles</strong><span>para rectificar, actualizar o suprimir cuando corresponda.</span></article>
+        <article><strong>Guardá constancia</strong><span>de la solicitud y de la fecha de recepción.</span></article>
+        <article><strong>AAIP</strong><span>si venció el plazo o la respuesta es insuficiente, podés denunciar.</span></article>
+      </div>
+      <p class="disclaimer">Información educativa. No constituye asesoramiento jurídico. Los procedimientos deben verificarse antes de enviar documentación personal.</p>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
