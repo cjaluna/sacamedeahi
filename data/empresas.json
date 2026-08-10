@@ -1,5 +1,69 @@
 {
   "schema_version": "0.1",
   "last_updated": "2026-08-09",
-  "entities": []
+  "entities": [
+    {
+      "slug": "nosis",
+      "name": "Nosis",
+      "category": "informacion-crediticia",
+      "country": "AR",
+      "rights": ["acceso", "rectificacion", "actualizacion", "supresion"],
+      "official_privacy_url": "https://www.nosis.com/es/legales/datos-personales",
+      "request_channels": ["web", "presencial", "correo-postal"],
+      "notes": "Nosis publica procedimientos específicos para solicitudes sobre datos personales, con acreditación de identidad.",
+      "verification_status": "verified-official-source",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "slug": "claro-argentina",
+      "name": "Claro Argentina",
+      "category": "telecomunicaciones",
+      "country": "AR",
+      "rights": ["acceso", "rectificacion", "actualizacion", "supresion", "revocacion-consentimiento"],
+      "official_privacy_url": "https://www.claro.com.ar/personas/legal-y-regulatorio/politica-de-privacidad",
+      "request_channels": ["email", "formulario"],
+      "contact": "611@claro.com.ar",
+      "identity_requirement": "La política indica completar el formulario y acompañar copia del DNI.",
+      "verification_status": "verified-official-source",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "slug": "mercado-libre",
+      "name": "Mercado Libre",
+      "category": "plataformas",
+      "country": "AR",
+      "rights": ["privacidad", "eliminacion-cuenta-y-datos-cuando-corresponda"],
+      "official_privacy_url": "https://www.mercadolibre.com.ar/privacidad/declaracion-privacidad",
+      "request_channels": ["plataforma"],
+      "notes": "La declaración de privacidad vigente describe los derechos y su ejercicio. Mercado Libre aclara que, al cancelar una cuenta, puede conservar datos durante el tiempo mínimo necesario por la finalidad original o por requerimientos legales antes de eliminarlos.",
+      "verification_status": "verified-official-source-partial-procedure",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "slug": "banco-galicia",
+      "name": "Banco Galicia",
+      "category": "bancos",
+      "country": "AR",
+      "rights": ["acceso", "rectificacion", "supresion", "retiro-marketing"],
+      "official_privacy_url": "https://www.galicia.ar/content/dam/galicia/banco-galicia/legales-compliance/web/politica-de-privacidad/Pol%C3%ADtica%20de%20Privacidad%20y%20Uso%20de%20Datos%20Personales%20de%20Banco%20Galicia.pdf",
+      "request_channels": ["email"],
+      "contact": "bancogalicia@bancogalicia.com.ar",
+      "identity_requirement": "La política indica acreditar identidad.",
+      "verification_status": "verified-official-source",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "slug": "bbva-argentina",
+      "name": "BBVA Argentina",
+      "category": "bancos",
+      "country": "AR",
+      "rights": ["acceso", "rectificacion", "actualizacion", "supresion"],
+      "official_privacy_url": "https://www.bbva.com.ar/personas/proteccion-de-datos-personales.html",
+      "request_channels": ["email"],
+      "contact": "dpo-arg@bbva.com",
+      "notes": "BBVA Argentina publica un canal de contacto de protección de datos y reconoce expresamente derechos bajo la Ley 25.326.",
+      "verification_status": "verified-official-source",
+      "verified_at": "2026-08-09"
+    }
+  ]
 }
