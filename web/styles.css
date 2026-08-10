@@ -1,0 +1,29 @@
+:root { color-scheme: dark; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background:#090b0a; color:#f4f6f4; }
+* { box-sizing:border-box; }
+body { margin:0; min-height:100vh; background:radial-gradient(circle at 50% -20%,#173326 0,#090b0a 42%); }
+.shell { width:min(920px,92vw); margin:auto; padding:72px 0; }
+.hero { text-align:center; margin-bottom:42px; }
+.eyebrow { font-size:.72rem; letter-spacing:.22em; color:#72e6a5; font-weight:800; }
+h1 { font-size:clamp(3rem,9vw,6rem); letter-spacing:-.07em; line-height:.9; margin:18px 0; }
+.hero p { color:#aeb8b1; font-size:1.15rem; max-width:650px; margin:auto; }
+.panel,.result,.legal { border:1px solid #273029; background:rgba(15,18,16,.88); border-radius:24px; padding:28px; box-shadow:0 18px 60px rgba(0,0,0,.3); }
+label,.label { display:block; font-weight:800; margin-bottom:10px; }
+select { width:100%; background:#101512; color:white; border:1px solid #364139; padding:16px; border-radius:14px; font-size:1rem; margin-bottom:24px; }
+.actions { display:grid; grid-template-columns:repeat(2,1fr); gap:10px; }
+button { background:#172019; color:#eaf7ee; border:1px solid #314437; border-radius:14px; padding:16px; text-align:left; font-weight:750; cursor:pointer; transition:.15s ease; }
+button:hover,button.active { transform:translateY(-1px); border-color:#68e69f; background:#183021; }
+.result { margin-top:16px; }
+.hidden { display:none; }
+.badge { display:inline-block; background:#173523; color:#7af0ac; padding:6px 9px; border-radius:999px; font-size:.75rem; font-weight:800; }
+.result h2 { margin:12px 0 8px; font-size:2rem; }
+.result p { color:#bdc6c0; line-height:1.6; }
+.result a { color:#7af0ac; }
+.legal { margin-top:42px; }
+.legal h2 { font-size:2rem; }
+.grid { display:grid; grid-template-columns:repeat(2,1fr); gap:12px; }
+.grid article { background:#101411; padding:18px; border-radius:16px; border:1px solid #222b25; }
+.grid strong,.grid span { display:block; }
+.grid strong { color:#7af0ac; font-size:1.1rem; margin-bottom:5px; }
+.grid span,.disclaimer { color:#98a39c; line-height:1.5; }
+.disclaimer { font-size:.85rem; margin-top:24px; }
+@media(max-width:620px){ .shell{padding:42px 0}.actions,.grid{grid-template-columns:1fr}.panel,.result,.legal{padding:20px} }
